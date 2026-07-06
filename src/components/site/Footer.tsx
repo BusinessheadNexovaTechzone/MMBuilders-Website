@@ -12,7 +12,8 @@ export function Footer() {
             <span className="font-display font-bold text-lg">MM Builder</span>
           </a>
           <p className="mt-5 text-sm text-white/60 leading-relaxed max-w-xs">
-            Premium residential, commercial and industrial construction — engineered to endure generations.
+            Premium residential, commercial and industrial construction — engineered to endure
+            generations.
           </p>
           {/* <div className="mt-6 flex gap-3">
             {[Facebook, Instagram, Linkedin, Twitter, Youtube].map((I, i) => (
@@ -27,7 +28,11 @@ export function Footer() {
           <h4 className="font-display font-semibold mb-5">Quick Links</h4>
           <ul className="space-y-3 text-sm text-white/60">
             {["Home", "About", "Projects", "Gallery", "Contact"].map((l) => (
-              <li key={l}><a href={`#${l.toLowerCase()}`} className="hover:text-yellow transition">{l}</a></li>
+              <li key={l}>
+                <a href={`#${l.toLowerCase()}`} className="hover:text-yellow transition">
+                  {l}
+                </a>
+              </li>
             ))}
           </ul>
         </div>
@@ -35,9 +40,15 @@ export function Footer() {
         <div>
           <h4 className="font-display font-semibold mb-5">Services</h4>
           <ul className="space-y-3 text-sm text-white/60">
-            {["Residential", "Commercial", "Industrial", "Interior Design", "Renovation"].map((l) => (
-              <li key={l}><a href="#services" className="hover:text-yellow transition">{l}</a></li>
-            ))}
+            {["Residential", "Commercial", "Industrial", "Interior Design", "Renovation"].map(
+              (l) => (
+                <li key={l}>
+                  <a href="#services" className="hover:text-yellow transition">
+                    {l}
+                  </a>
+                </li>
+              ),
+            )}
           </ul>
         </div>
 
@@ -45,8 +56,11 @@ export function Footer() {
           <h4 className="font-display font-semibold mb-5">Contact</h4>
           <ul className="space-y-3 text-sm text-white/60">
             <li>+91 9443625561</li>
-            <li>mmbuilderssipcot@gmail.com</li>
-            <li>MM Builder,No1/2 Dharmambal Palaniappan Complex, First Floor, Mount Poonamallee Rd, Near A2B Restaurant, Ramapuram, Nandambakkam, Chennai, Tamil Nadu - 600089.</li>
+            <li>info@mmbuildersrealestate.com</li>
+            <li>
+              MM Builder,No1/2 Dharmambal Palaniappan Complex, First Floor, Mount Poonamallee Rd,
+              Near A2B Restaurant, Ramapuram, Nandambakkam, Chennai, Tamil Nadu - 600089.
+            </li>
           </ul>
         </div>
       </div>
