@@ -49,7 +49,7 @@ export function Contact() {
             <div className="mt-10 space-y-5">
               {[
                 { icon: Phone, label: "Phone", val: "+91 9443625561" },
-                { icon: Mail, label: "Email", val: "mmbuilderssipcot@gmail.com" },
+                { icon: Mail, label: "Email", val: "info@mmbuildersrealestate.com" },
                 { icon: MapPin, label: "Head Office", val: officeAddress },
                 { icon: Clock, label: "Working Hours", val: "Mon–Sat · 9:00 AM – 6:00 PM" },
               ].map((c) => (
